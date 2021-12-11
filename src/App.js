@@ -1,11 +1,15 @@
 import logo from './logo.svg';
 import './App.css';
-//import Greeting from './components/pure/greeting';
+
+/*import Greeting from './components/pure/greeting';
 import Greetingf from './components/pure/greetingF';
 import TaskListComponent from './components/container/task_list';
 import Ejemplo2 from './hooks/Ejemplo2';
 import MiComponenteConContexto from './hooks/Ejemplo3';
 import Ejemplo4 from './hooks/Ejemplo4';
+*/
+
+import ComponenteA from '../src/components/pure/componenteA';
 
 function App() {
   return (
@@ -14,7 +18,7 @@ function App() {
         <img src={logo} className="App-logo" alt="logo" />
           {/* Componente greeting.jsx */}
           {/*<Greeting name="Carlos"></Greeting>*/}
-          <Greetingf name="Carlos Carrión"></Greetingf>
+          {/*<Greetingf name="Carlos Carrión"></Greetingf>*/}
           {/* Componente de listado de tareas */}
           {/*<TaskListComponent></TaskListComponent> */}
           {/*<Ejemplo2></Ejemplo2>*/}
@@ -24,6 +28,7 @@ function App() {
               Contenido del props.children
             </h3>
           </Ejemplo4>*/}
+          <ComponenteA></ComponenteA>
       </header>
     </div>
   );
